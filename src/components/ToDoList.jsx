@@ -19,7 +19,6 @@ const TodoList = (props) => {
     
     return(
         <div>
-            {/* <br/> */}
             {/* Style for line through task when completed */}
             <h3 style={{textDecoration: todo.isDone ? "line-through" : ""}}>{todo.taskName}</h3>            
             <div>
